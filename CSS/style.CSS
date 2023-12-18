@@ -1,0 +1,108 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+    color: #4f5465;
+  }
+  p {
+    font-family: 'Jura', sans-serif;
+    color: #4f5465;
+  }
+* {
+ 
+    scroll-behavior: smooth;
+}
+  /* Navigation bar */
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0px
+}
+
+.nav-item{
+  margin: 0px 15px;
+    
+}
+
+.nav-item:hover{
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);;
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    background-color:#5f6d83;
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url(../Images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  }
+
+
+/* content */
+
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: solid;
+    border-width: thin;
+  }
+
+  .imageContainer {
+    padding: 12px;
+  
+  }
+   
+  .aboutme,.work,.contactme {
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  .WorkContainer{
+    width: 100%;
+  }
+  .carousel-item img{
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+    border: solid;
+    border-width: thin;
+  }
+  .carousel-caption{
+    background-color:#959d9d;
+    border: thin;
+    border-radius:4px;
+  }
+
+  /* contact me */
+
+  .card-header{
+    color: #4f5465;
+  }
+  .card-body a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+  }
+  .card-body a:hover{
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);;
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    background-color:#a5a7aa;
+    color: #4f5465;
+  }
