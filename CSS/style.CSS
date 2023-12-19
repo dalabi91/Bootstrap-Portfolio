@@ -53,8 +53,8 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 .nav-item:hover{
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);;
-    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
     background-color:#5f6d83;
 }
 
