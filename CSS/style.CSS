@@ -17,6 +17,7 @@ h1, h2, h3 , h4, h5, h6 {
 .customNav {
   position: fixed;
   width: 100%;
+ background-color: #657697;
 
   background-size: cover;
   z-index: 10;
@@ -52,9 +53,25 @@ h1, h2, h3 , h4, h5, h6 {
   color: aliceblue;
   }
 
+  .body{
+    background-color:#222831;
+  }
 
 /* content */
+/* work */
 
+.content{
+  padding: 65px;
+}
+
+.card{
+  padding: 0px 30px 30px 30px;
+  margin-bottom: 50px;
+  background-color: #789fd4;
+  
+}
+
+/* about */
   .imageContainer img {
     width: 100%;
     height: auto;
@@ -67,27 +84,7 @@ h1, h2, h3 , h4, h5, h6 {
     padding: 12px;
   
   }
-   
-  .aboutme,.work,.contactme {
-    margin-top: 50px;
-    margin-bottom: 15px;
-  }
 
-  .WorkContainer{
-    width: 100%;
-  }
-  .carousel-item img{
-    width: 50%;
-    height: auto;
-    border-radius: 12px;
-    border: solid;
-    border-width: thin;
-  }
-  .carousel-caption{
-    background-color:#959d9d;
-    border: thin;
-    border-radius:4px;
-  }
 
   /* contact me */
 
