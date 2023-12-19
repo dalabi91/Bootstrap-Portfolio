@@ -72,6 +72,18 @@ h1, h2, h3 , h4, h5, h6 {
   justify-content: center;
   color: aliceblue;
   }
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: solid;
+    border-width: thin;
+  }
+
+  .imageContainer {
+    padding: 12px;
+  
+  }
 
   .body{
     background-color:#222831;
@@ -82,6 +94,9 @@ h1, h2, h3 , h4, h5, h6 {
 
 .content{
   padding: 65px;
+}
+.work h2{
+  margin-top: 50px;
 }
 
 .card{
@@ -98,31 +113,10 @@ h1, h2, h3 , h4, h5, h6 {
   
 }
 
-/* about */
-  .imageContainer img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    border: solid;
-    border-width: thin;
-  }
-
-  .imageContainer {
-    padding: 12px;
-  
-  }
-
-  .aboutme img{
-    margin-top:40pxpx;
-  }
  
-  /* skills */
+  /* Aboutme/skills */
 
-  .skills{
-    margin-top: 50px;
-  }
-
-  .skills img{
+  .aboutme,.skills{
     margin-top: 50px;
   }
 
