@@ -1,12 +1,33 @@
+:root {
+  /* color */
+  --HEADER-BGCOLOR: #303137; 
+  --HEADER-COLOR: #c3cae1;
+   --FCOLOR: #c3cae1;
+  --BCOLOR: #657697;
+  /* font size */
+  --h1fontsize: 45px;
+  --h2-fontsize: 30px;
+  --nav-fontsize: 20px;
+  
+  
+  /* FONTS */
+  --FONT-FAMILY: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Anton', sans-serif;
-    color: #4f5465;
+    color: var(--HEADER-COLOR);
+    
   }
   p {
-    font-family: 'Jura', sans-serif;
-    color: #4f5465;
+    font-family: var(--FONT-FAMILY);
+    color: var(--FCOLOR);
   }
+
 * {
  
     scroll-behavior: smooth;
@@ -17,8 +38,7 @@ h1, h2, h3 , h4, h5, h6 {
 .customNav {
   position: fixed;
   width: 100%;
- background-color: #657697;
-
+  background-color: var(--BCOLOR);
   background-size: cover;
   z-index: 10;
 }
@@ -65,9 +85,16 @@ h1, h2, h3 , h4, h5, h6 {
 }
 
 .card{
-  padding: 0px 30px 30px 30px;
+  
   margin-bottom: 50px;
-  background-color: #4077be;
+  background-color: #4476b8;
+  border-radius: 12px;
+}
+
+.card img {
+  width: 100%;
+  height:250px;
+  border-radius: 12px;
   
 }
 
@@ -86,8 +113,9 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   .aboutme img{
-    margin-top:50px;
+    margin-top:40pxpx;
   }
+ 
   /* skills */
 
   .skills{
@@ -95,24 +123,25 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   .skills img{
-    margin-top: 96px;
+    margin-top: 50px;
   }
 
 
   /* contact me */
 
   .card-header{
-    color: #4f5465;
+    color: var(--FCOLOR);
   }
-  .card-body a{
+  .contact a{
     font-size: 20px;
     text-decoration: none;
     padding: 5px 10px;
+    color:var(--FCOLOR);
     
   }
-  .card-body a:hover{
+  .contact a:hover{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);;
     -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
-    background-color:#a5a7aa;
-    color: #4f5465;
+    background-color:#3d3f43;
+    color: #191a1f;
   }
