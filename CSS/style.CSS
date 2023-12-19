@@ -67,7 +67,7 @@ h1, h2, h3 , h4, h5, h6 {
 .card{
   padding: 0px 30px 30px 30px;
   margin-bottom: 50px;
-  background-color: #789fd4;
+  background-color: #4077be;
   
 }
 
@@ -83,6 +83,19 @@ h1, h2, h3 , h4, h5, h6 {
   .imageContainer {
     padding: 12px;
   
+  }
+
+  .aboutme img{
+    margin-top:50px;
+  }
+  /* skills */
+
+  .skills{
+    margin-top: 50px;
+  }
+
+  .skills img{
+    margin-top: 96px;
   }
 
 
