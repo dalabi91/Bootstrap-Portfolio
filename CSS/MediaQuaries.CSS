@@ -1,0 +1,40 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+
+    .content{
+        padding: 20px;
+      }
+    .aboutme,.work h2{
+        margin-top: 0px;
+      }
+      .skills{
+        margin-top: 35px;
+      }
+}
+
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .content{
+        padding: 20px;
+      }
+
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and  (min-width: 768px) and (max-width: 992px) {
+
+    .content{
+        padding: 20px;
+      }
+}
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .content{
+        padding: 70px;
+      }
+}
+}

@@ -2,7 +2,7 @@
   /* color */
   --HEADER-BGCOLOR: #303137; 
   --HEADER-COLOR: #c3cae1;
-   --FCOLOR: #c3cae1;
+  --FCOLOR: #c3cae1;
   --BCOLOR: #657697;
   /* font size */
   --h1fontsize: 45px;
@@ -104,6 +104,9 @@ h1, h2, h3 , h4, h5, h6 {
   margin-bottom: 50px;
   background-color: #4476b8;
   border-radius: 12px;
+}
+.project-5{
+  cursor:not-allowed;
 }
 
 .card img {
