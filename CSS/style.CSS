@@ -3,12 +3,8 @@
   --HEADER-BGCOLOR: #303137; 
   --HEADER-COLOR: #c3cae1;
   --FCOLOR: #c3cae1;
-  --BCOLOR: #657697;
-  /* font size */
-  --h1fontsize: 45px;
-  --h2-fontsize: 30px;
-  --nav-fontsize: 20px;
-  
+  --BCOLOR: #222831;
+  / 
   
   /* FONTS */
   --FONT-FAMILY: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -86,7 +82,7 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   .body{
-    background-color:#222831;
+    background-color:var(--BCOLOR);
   }
 
 /* content */
@@ -105,9 +101,7 @@ h1, h2, h3 , h4, h5, h6 {
   background-color: #4476b8;
   border-radius: 12px;
 }
-.project-5{
-  cursor:not-allowed;
-}
+
 
 .card img {
   width: 100%;
